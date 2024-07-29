@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    font-size: 60px;
+    font-family: Lilita One, sans-serif;
+    color: white;
+    padding: 75px ;
+}
+nav{
+    background-color: black;
+    height: 75px;
+    padding-top: 5px;
+}
+nav::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+nav ul{
+    float: right;
+    list-style: none;
+    margin-right: 40px;
+    position: relative;
+}
+nav ul li{
+    display: inline-block;
+    background-color: black;
+    padding: 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px 15px;
+}
+nav ul li a:hover{
+    color: #54aaff;
+    border-bottom: 2px solid #3C63E6;
+}
+
+.carousel{
+    height: 100vh;
+    margin-top: 50px;
+    overflow: hidden;
+    position: relative;
+}
+.carousel-img{
+    height: 500px;
+    width: 400px;
+}
